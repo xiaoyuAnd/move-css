@@ -231,4 +231,4 @@ var player = {
 };
 player.init();
 },{"./draw.js":"Kxyk"}]},{},["epB2"], null)
-//# sourceMappingURL=/main.220f011e.js.map
+//# sourceMappingURL=main.220f011e.js.map

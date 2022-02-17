@@ -1,5 +1,5 @@
 # 构建
-rm -rf dist && parcel build src/index.html --public-url ./ --no-cache --no-minify
+rm -rf dist && yarn build src/index.html --public-url ./ --no-cache --no-minify
 # rm -rf dist && rm -rf .cache
 # 进入生成的构建文件夹
 cd dist
