@@ -33,6 +33,9 @@ body {
   body {
     font-size: 16px;
   }
+  #main {
+    right: 200px;
+  }
 }
 
 #text-container {
@@ -59,11 +62,17 @@ body {
 }
 
 #main {
+  width: 100%;
   position: absolute;
   top: 20px;
-  right: 200px;
   overflow: hidden;
 }
+#main .main{
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    overflow: hidden;
+  }
 
 #buttons {
   position: absolute;

@@ -1,6 +1,6 @@
 # 构建
 rm -rf dist && parcel build src/index.html --public-url ./ --no-cache --no-minify
-
+# rm -rf dist && rm -rf .cache
 # 进入生成的构建文件夹
 cd dist
 
@@ -10,6 +10,6 @@ git add -A
 git commit -m 'deploy'
 
 # 部署到 GitHub Pages
-git push -f git@github.com:xiaoyuAnd/move-css master:gh-pages
+git push -f git@github.com:xiaoyuAnd/move-css.git master:gh-pages
 
 cd -
