@@ -11,6 +11,9 @@ const style =
   min-width: 100vh;
   min-height: 100vh;
 }
+/*
+** 首先，是小黄人的身体
+*/
 .body {
   position: absolute;
   top: 50px;
