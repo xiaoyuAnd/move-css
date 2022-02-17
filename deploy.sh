@@ -10,6 +10,6 @@ git add -A
 git commit -m 'deploy'
 
 # 部署到 GitHub Pages
-git push -f git@github.com:Hyuain/usagi-piske-animated.git master:gh-pages
+git push -f git@github.com:xiaoyuAnd/move-css master:gh-pages
 
 cd -

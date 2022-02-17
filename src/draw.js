@@ -1,10 +1,8 @@
 const style =
 `/*
-** 你好呀，现在我要画一幅
-** 可爱的小兔 Usagi 和小鸟 Piske 
-** 把他们送给你，希望你喜欢哦
+** 你好，现在我要动态的画一个
+** 可爱的小黄人，把他送给你
 */
-
 .container {
   position: relative;
   top: 0;
@@ -13,7 +11,6 @@ const style =
   min-width: 100vh;
   min-height: 100vh;
 }
-
 .body {
   position: absolute;
   top: 50px;
@@ -25,7 +22,9 @@ const style =
   border-top-left-radius: 130px;
   background: #fce840;
 }
-
+/*
+** 现在是他的眼睛
+*/
 .eye1,
 .eye2 {
   position: absolute;
@@ -36,7 +35,6 @@ const style =
   z-index: 2;
   /* animation: move .5s linear infinite; */
 }
-
 .eye1 {
   top: 152px;
   left: 50%;
@@ -107,7 +105,9 @@ const style =
   left: 50%;
   margin-left: 73px;
 }
-
+/*
+** 牙齿
+*/
 .mouth1,
 .mouth2 {
   background: black;
@@ -182,7 +182,9 @@ const style =
   left: 50%;
   margin-left: 32px;
 }
-
+/*
+** 还有他的手臂
+*/
 .hand1,
 .hand2 {
   position: absolute;
@@ -206,7 +208,9 @@ const style =
   left: 50%;
   margin-left: -153px;
 }
-
+/*
+** 现在给他穿上衣服
+*/
 .jeans1 {
   height: 100px;
   width: 248px;
@@ -279,7 +283,9 @@ const style =
   width: 25px;
   background: #496c8a;
 }
-
+/*
+** 把腿画上
+*/
 .leg1 {
   top: 545px;
   left: 50%;
@@ -364,25 +370,9 @@ const style =
   transform: rotate(-3deg);
 }
 
-.copyright {
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  color: #607D8B;
-  font-size: 18px;
-  text-transform: capitalize;
-  min-width: 100%;
-}
-
-.copyright a {
-  color: #3498db;
-}
 
 /*
-** 这样我们就画完啦，不知道你喜欢吗
-** 我们下次再见啦，拜拜~
+** 这样就画完啦，一个可爱的小黄人送给你
 */`
 
 export default style
