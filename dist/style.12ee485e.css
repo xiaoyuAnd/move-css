@@ -33,6 +33,15 @@ body {
   body {
     font-size: 16px;
   }
+  #main {
+    /* right: 250px;
+    overflow: auto; */
+  /* width: 100%;
+  position: absolute;
+  top: 20px; */
+  right: 10px !important;
+  overflow: hidden;
+  }
   
 }
 
@@ -59,13 +68,13 @@ body {
   width: 0 !important
 }
 
+
 #main {
   width: 100%;
   position: absolute;
   top: 20px;
-  right: 10px;
-
-  overflow: hidden;
+  right: 250px;
+  /* overflow: auto; */
 }
 /* #main .main{
     width: 100%;
@@ -112,4 +121,4 @@ body {
   transition: all 0.5s;
 }
 
-/*# sourceMappingURL=style.9871b580.css.map */
+/*# sourceMappingURL=style.12ee485e.css.map */
