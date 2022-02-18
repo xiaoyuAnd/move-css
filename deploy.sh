@@ -11,5 +11,6 @@ git commit -m 'deploy'
 
 # 部署到 GitHub Pages
 git push -f git@github.com:xiaoyuAnd/move-css.git master:gh-pages
+git push -f git@github.com:xiaoyuAnd/move-css.git master:gh-pages
 
 cd -
