@@ -15,6 +15,7 @@ const style =
 ** 首先，是小黄人的身体
 */
 .body {
+  background: #fce840;
   position: absolute;
   top: 50px;
   left: 50%;
@@ -23,7 +24,6 @@ const style =
   width: 250px;
   border-top-right-radius: 130px;
   border-top-left-radius: 130px;
-  background: #fce840;
 }
 /*
 ** 现在是他的眼睛
