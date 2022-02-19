@@ -231,4 +231,4 @@ var player = {
 };
 player.init();
 },{"./draw.js":"Kxyk"}]},{},["epB2"], null)
-//# sourceMappingURL=https://xiaoyuand.github.io/move-css/move-css/dist/main.f11238ba.js.map
+//# sourceMappingURL=main.f11238ba.js.map
